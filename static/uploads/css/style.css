@@ -1,0 +1,36 @@
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 60vh;
+  overflow: hidden;
+}
+.old_price {
+  font-weight: bold;
+  color: red;
+}
+
+.new_price {
+  font-weight: bold;
+  background-color: rgb(13, 240, 13);
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.hot{
+
+  background-color: rgb(238, 34, 34);
+  color: rgb(243, 238, 238);
+  width: 50px;
+  text-align:end;
+  font-weight: bold;
+  display: inline;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  z-index: 10;
+}
